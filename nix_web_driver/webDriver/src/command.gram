@@ -1,0 +1,7 @@
+#JSGF V1.0
+
+grammar command;
+public <terminateSession> = (stop | close | exit);
+public <navigateBack> = back;
+public <navigateForward> = forward;
+public <selectLink> = open;
