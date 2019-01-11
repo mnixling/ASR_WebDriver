@@ -1,0 +1,11 @@
+This is an ASR-WebDriver. It allows you to search with voice commands. It works fairly well searching with Google.
+
+It is probably easiest to build this in an IDE using Java. I used Eclipse Photon. Once you have built the ASR-WebDriver you can issue the 
+following commands:
+
+1. Google (this will open a chrome browser--providing you did not change anything)
+2. just say what you want to search for
+3. Say 'Open' and the  first returned link should open.
+
+It is possible to access different sites instead of just Google.com upon starting the WebDriver. This was built specifically to open to Google.com 
+to begin a search and open a returned link.
